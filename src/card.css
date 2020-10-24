@@ -1,0 +1,33 @@
+.card{
+    background-color: lightgreen;
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    margin: 5px;
+    border-radius: 10px;
+    padding-top: 15px;
+    transition: all ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    box-shadow: 2px 3px rgb(207, 204, 204);
+}
+
+.cnt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    line-height: .5px;
+    font-size: .7rem;
+}
+
+.srch{
+    text-align: center;
+}
+
+input[type='search'] {
+    padding: 10px;
+    background-color: rgb(153, 197, 153);
+    margin-bottom: 10px;
+}
