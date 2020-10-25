@@ -2,6 +2,12 @@ import React from 'react';
 import '../card.css';
 
 class Cards extends React.Component {
+       //REACT HOOKS -- useState
+    // const [counter, setCounter] = useState(0);
+    // function increment(){
+    //     setCounter(counter + 1)
+    // } 
+    
     render(){
         return (
             <div className='card'>
