@@ -7,10 +7,6 @@ class CardList extends React.Component{
         let {id, username, name, email} = rbt;
        return <Cards key={id} username={username} name={name} mail={email}/>
     })
-
-    // if(true){
-    //     throw new Error("Opsss...")
-    // }
        return(
            <React.Fragment>
                  {arr}
